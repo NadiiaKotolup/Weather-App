@@ -36,7 +36,7 @@ li:first-letter {
 .overview {
   margin-bottom: 20px;
 }
-.weather-temperature {
+.weather-temperature img {
   margin-right: 5px;
   height: 64px;
   width: 64px;
@@ -51,4 +51,11 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
