@@ -74,3 +74,20 @@ li:first-letter {
 .weather-forecast-temperatures {
   font-size: 13px;
 }
+.App {
+  padding: 60px 0 100px;
+  max-width: 960px;
+}
+.App .logo {
+  max-width: 200px;
+  display: block;
+  margin: 30px auto;
+}
+.App footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.App a {
+  color: #6c63ff;
+}
